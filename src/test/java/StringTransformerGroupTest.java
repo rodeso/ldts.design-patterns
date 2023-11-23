@@ -1,5 +1,11 @@
 import org.junit.jupiter.api.Test;
-import rodrigo.*;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.StringRecipe;
+import rodrigo.drink.StringTransformerGroup;
+import rodrigo.drink.transformer.StringCaseChanger;
+import rodrigo.drink.transformer.StringInverter;
+import rodrigo.drink.transformer.StringReplacer;
+import rodrigo.drink.transformer.StringTransformer;
 
 import java.util.ArrayList;
 import java.util.List;

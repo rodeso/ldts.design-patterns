@@ -1,4 +1,7 @@
-package rodrigo;
+package rodrigo.drink;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringTransformer;
+
 import java.util.List;
 
 public class StringTransformerGroup implements StringTransformer {

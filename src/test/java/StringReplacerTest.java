@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
-import rodrigo.*;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringReplacer;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringReplacerTest {

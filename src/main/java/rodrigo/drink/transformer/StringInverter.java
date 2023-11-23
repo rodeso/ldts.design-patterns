@@ -1,7 +1,10 @@
-package rodrigo;
+package rodrigo.drink.transformer;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringTransformer;
+
 import java.lang.StringBuilder;
 
-public class StringInverter implements StringTransformer{
+public class StringInverter implements StringTransformer {
 
     @Override
     public void execute(StringDrink drink) {

@@ -5,27 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c554470a-a698-4d6b-93e3-80e3896333e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/StringCaseChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/StringDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/StringInverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/StringReplacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/StringTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringCaseChangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringInverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StringReplacerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/bar/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/bar/BarObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/bar/StringBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/bar/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rodrigo/bar/client/HumanClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringBarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringCaseChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/transformer/StringCaseChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/StringDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/transformer/StringInverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/StringRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/transformer/StringReplacer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/transformer/StringTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rodrigo/StringTransformerGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rodrigo/drink/StringTransformerGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringCaseChangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCaseChangerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringInverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringRecipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringRecipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringReplacerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringReplacerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringTransformerGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTransformerGroupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +72,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/Rodri_5/L.EIC/2.1/LDTS/JavaProjects/commandcoiso",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/Rodri_5/L.EIC/2.1/LDTS/JavaProjects/commandcoiso&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.StringCaseChangerTest">
-    <configuration name="StringCaseChangerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.Tests in 'commandcoiso.test'">
+    <configuration name="StringBarTest.happyHour" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +105,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;StringCaseChangerTest&quot;" />
+            <option value="&quot;StringBarTest.happyHour&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +116,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringInverterTest.stringInverter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringTransformerGroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +129,77 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;StringInverterTest.stringInverter&quot;" />
+            <option value="&quot;StringTransformerGroupTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringTransformerGroupTest.transformerComposite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StringTransformerGroupTest.transformerComposite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringTransformerGroupTest.transformerGroup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StringTransformerGroupTest.transformerGroup&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'commandcoiso.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,8 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StringCaseChangerTest" />
-        <item itemvalue="Gradle.StringInverterTest.stringInverter" />
+        <item itemvalue="Gradle.Tests in 'commandcoiso.test'" />
+        <item itemvalue="Gradle.StringBarTest.happyHour" />
+        <item itemvalue="Gradle.StringTransformerGroupTest.transformerComposite" />
+        <item itemvalue="Gradle.StringTransformerGroupTest" />
+        <item itemvalue="Gradle.StringTransformerGroupTest.transformerGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +230,9 @@
       <updated>1699614492377</updated>
       <workItem from="1699614493402" duration="4150000" />
       <workItem from="1700694213003" duration="170000" />
+      <workItem from="1700695002649" duration="3749000" />
+      <workItem from="1700758986491" duration="3438000" />
+      <workItem from="1700770785428" duration="7000" />
     </task>
     <servers />
   </component>

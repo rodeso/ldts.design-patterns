@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
-import rodrigo.*;
+import rodrigo.drink.transformer.StringCaseChanger;
+import rodrigo.drink.StringDrink;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,7 @@
-package rodrigo;
+package rodrigo.drink.transformer;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringTransformer;
+
 import java.lang.StringBuilder;
 import java.lang.Character;
 

@@ -1,6 +1,4 @@
-package rodrigo;
-
-import org.junit.jupiter.api.Test;
+package rodrigo.bar;
 import rodrigo.drink.StringDrink;
 import rodrigo.drink.StringRecipe;
 import rodrigo.drink.transformer.StringCaseChanger;
@@ -11,12 +9,35 @@ import rodrigo.drink.transformer.StringTransformer;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+public class StringBar extends Bar {
 
-public class StringRecipeTest {
-    @Test
-    public void stringRecipe() {
-        StringDrink drink = new StringDrink("AbCd-aBcD");
+    private boolean isHappyHour = false;
+
+    public StringBar() {
+        this(new ArrayList<>());
+    }
+
+    public StringBar(List<BarObserver> observers) {
+        super(observers);
+    }
+
+    @Override
+    public boolean isHappyHour() {
+        return isHappyHour;
+    }
+
+    @Override
+    public void startHappyHour() {
+        isHappyHour = true;
+        notifyObservers();
+    }
+
+    @Override
+    public void endHappyHour() {
+        isHappyHour = false;
+        notifyObservers();
+    }
+    private StringRecipe getRecipe() {
         StringInverter si = new StringInverter();
         StringCaseChanger cc = new StringCaseChanger();
         StringReplacer sr = new StringReplacer('A', 'X');
@@ -25,7 +46,9 @@ public class StringRecipeTest {
         transformers.add(cc);
         transformers.add(sr);
         StringRecipe recipe = new StringRecipe(transformers);
+        return recipe;
+    }
+    public void order(StringDrink drink, StringRecipe recipe) {
         recipe.mix(drink);
-        assertEquals("dCbX-DcBa", drink.getText());
     }
 }

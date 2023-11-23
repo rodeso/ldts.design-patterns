@@ -1,6 +1,9 @@
-package rodrigo;
+package rodrigo.drink.transformer;
 
-public class StringReplacer implements StringTransformer{
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringTransformer;
+
+public class StringReplacer implements StringTransformer {
     private char targetChar;
     private char replacementChar;
 

@@ -1,4 +1,4 @@
-package rodrigo;
+package rodrigo.drink;
 
 public class StringDrink {
     private String text;

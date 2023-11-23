@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
-import rodrigo.StringDrink;
-import rodrigo.StringInverter;
+import rodrigo.drink.StringDrink;
+import rodrigo.drink.transformer.StringInverter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
